@@ -3,8 +3,8 @@
 -------------------------------------------------------
 *** Viterbi Algorithm ***
 
-code:
-viterbi.py
+folder:
+Viterbi-Algo
 
 how to run: 
 $python viterbi.py

@@ -19,7 +19,6 @@ https://www.kaggle.com/c/human-protein-atlas-image-classification
 
 
 
-
 --------------------------------------------------------
 *** Titanic Survival ***
 
@@ -31,14 +30,22 @@ https://www.kaggle.com/c/human-protein-atlas-image-classification
 ========================================== ML Concepts ==============================================
 
 -------------------------------------------------------
+*** Bayesian Trap ***
 
-*** Baysen Trap ***
 
 
 
 
 -------------------------------------------------------
 *** HMM ***
+
+
+
+
+
+-------------------------------------------------------
+*** SVM ***
+
 
 
 
@@ -56,8 +63,4 @@ $python viterbi.py
 
 ref: 
 https://en.wikipedia.org/wiki/Viterbi_algorithm
-
--------------------------------------------------------
-*** SVM ***
-
 

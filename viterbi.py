@@ -1,27 +1,27 @@
 #observable states
 obs = ('normal', 'cold', 'dizzy')
-#hidden states: for which we need to predict
+#hidden states(target)
 states = ('Healthy', 'Fever')
 
-#start prob of hidden states(dataset: target distibution)
+#hidden(target) states: Starting prob/ Belief(dataset: target distibution)
 start_p = {'Healthy': 0.6, 'Fever': 0.4}
-#Internal transition probs of target states
+#hidden(target) states: Internal transition probs 
 trans_p = {
    'Healthy' : {'Healthy': 0.7, 'Fever': 0.3},
    'Fever' : {'Healthy': 0.4, 'Fever': 0.6}
    }
-#Emition probs of observations for target states
+#hidden(target) states: Emition probs of visible observations during hidden states
 emit_p = {
    'Healthy' : {'normal': 0.5, 'cold': 0.4, 'dizzy': 0.1},
    'Fever' : {'normal': 0.1, 'cold': 0.3, 'dizzy': 0.6}
    }
 
 #It takes input as: 
-# sequesnce of observations for which we need to predict,
-# target states,
-# start_probs of target states,
-# trans_probs of target states internally
-# emition_probs of observations for each target state
+# sequesnce of observations for which we need to predict
+# hidden(target) states
+# hidden states: start_probs
+# hidden states: internal trans_probs
+# hidden states: Emition probs of visible observations
 def viterbi(obs, states, start_p, trans_p, emit_p):
     V = [{}]
     
@@ -84,6 +84,21 @@ def dptable(V):
 viterbi(obs, states, start_p, trans_p, emit_p)
 
 '''
+Time Step t = 0 curr_obs:normal
+
+For State:Healthy->[start_p[Healthy] * emit_p[Healthy][normal]]
+{'prob': 0.3, 'prev': None}
+For State:Fever->[start_p[Fever] * emit_p[Fever][normal]]
+{'prob': 0.04, 'prev': None}
+
+           0
+Healthy: 0.30000
+Fever: 0.04000
+
+
+Time Step t>0
+
+
 Time Step t = 1  curr_obs:cold
 
 TransProb = prev_state(obs)_prob * trans_p(prev_state(any)->cur_state)

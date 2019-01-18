@@ -1,4 +1,4 @@
-# Machine-Learning-Is-Fun 😍
+# Machine-Learning-Is-Fun!
 
 ========================================= Projects ==========================================
 
@@ -26,6 +26,8 @@ https://www.kaggle.com/c/human-protein-atlas-image-classification
 
 
 
+
+
 ========================================== ML Concepts ==============================================
 
 -------------------------------------------------------
@@ -33,9 +35,15 @@ https://www.kaggle.com/c/human-protein-atlas-image-classification
 *** Baysen Trap ***
 
 
+
+
+-------------------------------------------------------
 *** HMM ***
 
 
+
+
+------------------------------------------------------
 *** Viterbi Algorithm ***
 
 The Viterbi algorithm is a dynamic programming algorithm for finding the most likely sequence of hidden states—called the Viterbi path—that results in a sequence of observed events, especially in the context of Markov information sources and hidden Markov models.
@@ -50,7 +58,6 @@ ref:
 https://en.wikipedia.org/wiki/Viterbi_algorithm
 
 -------------------------------------------------------
-
 *** SVM ***
 
 

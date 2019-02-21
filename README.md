@@ -4,7 +4,10 @@
 *** Doctor's Consultation Fees Prediction ***
 
 folder: Doctor's Fees Prediction
+
 solution file: FeesPredictor.py 
+
+score: 0.72735 (criteria: 1 - Root Mean Squared Logarithmic Error)
 
 Hackathon details:
 https://www.machinehack.com/course/predict-a-doctors-consultation-fees-hackathon/

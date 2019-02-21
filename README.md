@@ -1,59 +1,13 @@
 # Machine-Learning-Is-Fun!
 
 -------------------------------------------------------
-*** Human Protein Atlas Classification ***
+*** Doctor's Consultation Fees Prediction ***
 
-folder: 
-Image-Classification/HumanProteinAtlas-Kaggle-Competition
+folder: Doctor's Fees Prediction
+solution file: FeesPredictor.py 
 
-competition details:
-https://www.kaggle.com/c/human-protein-atlas-image-classification
-
-
---------------------------------------------------------
-*** GenPact: Demand Forecast ***
-
-
-
-
-
---------------------------------------------------------
-*** Titanic Survival ***
-
-
-
-
-
--------------------------------------------------------
-*** Bayesian Trap ***
-
-
-
-
-------------------------------------------------------
-*** Naive Bayes ***
-
-ToDO
-
-
--------------------------------------------------------
-*** SVM ***
-
-ToDo
-
-
-------------------------------------------------------
-*** Decision Tree ***
-
-ref:
-https://github.com/random-forests/tutorials/blob/master/decision_tree.py
-
-
--------------------------------------------------------
-*** HMM ***
-
-
-
+Hackathon details:
+https://www.machinehack.com/course/predict-a-doctors-consultation-fees-hackathon/
 
 ------------------------------------------------------
 *** Viterbi Algorithm ***
